@@ -12,9 +12,7 @@ function replaceTask(opts) {
 
   // this task runs inside the subprocess to transform each event
   return event => {
-    // TODO: data = compile(event.data) etc.
-
-    return { data: event.data.replace(opts.search, opts.replace) }
+    return { data: event.data.replace(new RegExp(opts.search.pattern, opts.search.flags || "g"), opts.replace) }
   }
 }
 
