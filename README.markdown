@@ -1,8 +1,10 @@
+# [WIP] NOT PRODUCTION READY YET
+
 # sigh-replace
 
 [![build status](https://circleci.com/gh/Strate/sigh-replace.png)](https://circleci.com/gh/Strate/sigh-replace)
 
-Sigh plugin for...
+Sigh plugin for perform simple replace operation
 
 ## Example
 
